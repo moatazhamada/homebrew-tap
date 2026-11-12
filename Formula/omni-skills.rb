@@ -1,21 +1,21 @@
 class OmniSkills < Formula
   desc "Write-once, run-anywhere prompt compiler and sync tool for AI agents"
   homepage "https://github.com/moatazhamada/ai-omni-skills"
-  version "1.5.7"
+  version "1.6.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.5.7/omni-skills-mac-arm64"
-      sha256 "42819236ab12e409fe915f390f55bc41b882c2e6988ff8d171f12a52ea70131a"
+      url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.6.0/omni-skills-mac-arm64"
+      sha256 "c5ecefadeb9606bbb27138beef313cc9553f6944327c28f15c0a561db50d4ab5"
     else
-      url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.5.7/omni-skills-mac-x64"
-      sha256 "e155ba0c13bc9ede38f8912c1f69502af2c9b47a85eb0dd06517176fc991af2b"
+      url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.6.0/omni-skills-mac-x64"
+      sha256 "ff0270321bdac6127f21ad8ee39de3d4f39f73acff1bff0b2f53c3cc378568d9"
     end
   end
 
   on_linux do
-    url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.5.7/omni-skills-linux-x64"
-    sha256 "84ea00b269e3823aa7d1cba8856cabe41a8d041b04630bb4f287456e1395f67e"
+    url "https://github.com/moatazhamada/ai-omni-skills/releases/download/v1.6.0/omni-skills-linux-x64"
+    sha256 "94547b02d89260175bd7a44e031192f8b495f049156340d356594d1d46f4cb7d"
   end
 
   def install
